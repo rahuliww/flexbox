@@ -1,0 +1,56 @@
+
+
+h1{
+    text-align: center;
+}
+
+.floattest{
+    margin: 40px;
+    overflow: auto;
+    border: 3px solid rgb(63, 63, 246);
+}
+
+.floattest main{
+    background-color: rgb(77, 179, 179);
+}
+
+.floattest div:first-of-type{
+    float: left;
+    width: 50%;
+    background-color: rgb(232, 148, 39);
+}
+
+.floattest div:last-of-type{
+    float: right;
+    width: 50%;
+    background-color: brown;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+
+.flextest{
+    margin: 50px;
+    margin-top: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flextest main{
+    flex-basis: 100%;
+    background-color: rgb(231, 58, 104);
+}
+
+.flextest div:first-of-type{
+    background-color: rgb(96, 239, 99);
+    flex-basis: 50%;
+}
+
+.flextest div:last-of-type{
+    background-color: rgb(34, 103, 242);
+    flex-basis: 50%;
+}
+
